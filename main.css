@@ -5,14 +5,14 @@
 }
 
 body {
-	background-color: #ff8da1;
+	background: linear-gradient( #ff8da1, #d14d65);
    height: 100vh;
    margin: auto;
 }
 	
 div.wrapper {
    border: 1px solid rgb(82, 82, 82);
-   background: linear-gradient(white, rgb(160, 231, 192));
+   background: radial-gradient(circle, white, rgb(160, 231, 192));
    max-width: 960px;
    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.428);
    margin: 1rem auto;
@@ -34,7 +34,7 @@ header {
 }
 
 header h1 {
-   /* margin-left: 1rem; */
+   margin-left: 1rem; 
    font-size: 250%;
 }
 
@@ -44,10 +44,6 @@ header h1 a {
 }
 
 nav {
-   /* display: flex; */
-   /* justify-content: space-evenly; */
-   /* gap: 1rem; */
-   /* padding: 0 0 1rem 0; */
    margin: 0 1rem 0 0; /* adds a little space on the right */
  }
  
@@ -55,10 +51,8 @@ nav {
    display: inline-block;
    background-color: #ff8da1;
    transform: skew(-30deg);
-   /* padding: 1rem 0.75rem; */
-   /* text-decoration: none; */
-   /* color: white; */
    border: 0.25px solid black;
+   margin-right: .3rem;
    transition: all 1s ease;
  }
 
@@ -86,11 +80,103 @@ nav {
 
  footer {
   clear: both;
+  background-color: #A0D9EF;
+  border-top: #A0D9EF;
+  text-align: center;
+  border-top: 2px solid #ff8da1;
+  padding: 1rem;
+ }
+
+ footer h3 {
+   font-size: 125%;
+   margin-bottom: 1rem;
+ }
+
+ footer a {
+   text-decoration: none;
+   color: black;
+   border: 2px solid #ff8da1;
+   padding: .35rem;
  }
 
  /* Homepage CSS */
+ .homepage h1 {
+   font-size: 250%;
+   text-align: center;
+   margin: 1rem 0 .75rem 0;
+}
 
+.homepage h2 {
+   font-size: 150%;
+   text-align: center;
+   max-width: 760px;
+   margin: auto auto 3rem auto;
+}
 
+div.options ul{
+   display: flex;
+   list-style-type: none;
+   justify-content: center;
+   margin-bottom: 3rem;
+}
+
+div.options a {
+   text-decoration: none;
+   background-color: #A0D9EF;
+   color: black;
+   border: 2.5px solid #ff8da1;
+   border-radius: .5rem;
+   padding: 1rem;
+   margin: 1rem 6rem;
+   transition: all 1s ease;
+}
+
+div.options a:hover {
+   transform: scale(1.25);
+   box-shadow: 0 10px 10px -10px black;
+}
+
+section.introvideo {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 2rem;
+}
+
+.exploregrid {
+   display: grid;
+   grid-gap: 1rem;
+   grid-template-columns: 1fr 1fr 1fr;
+   margin: 1.5rem 3rem;
+}
+
+.explorecard {
+   background-color: #A0D9EF;
+   padding: 1.5rem;
+   border-radius: 1rem;
+   text-align: center;
+   box-shadow: 0 4px 10px darkgray;
+   transition: all 1s ease;
+   border: 2.5px solid #ff8da1;
+}
+
+.explorecard:hover {
+   transform: translateY(-0.75rem);
+}
+
+.icon {
+   font-size: 250%;
+   margin-bottom: .75rem;
+}
+
+.cardtitle {
+   text-decoration: none;
+   color: black;
+}
+
+.cardtitle:hover {
+   text-decoration: underline;
+}
  /* Community CSS */
 
 
@@ -103,8 +189,9 @@ nav {
 
 
  /* FAQ CSS */
-/* OUTER DRAWER
----------------------------- */
+
+      /* OUTER DRAWER
+         ---------------------------- */
 
 .drawer {
    background-color: white;
@@ -196,7 +283,7 @@ nav {
   height: 30px;
   background: rgba(0, 0, 0, 0.5);
   border-radius: 50%;
-  color: white;
+  color: white; 
   font-size: 0; /* hides default arrow text */
   border: none;
   background: transparent;
