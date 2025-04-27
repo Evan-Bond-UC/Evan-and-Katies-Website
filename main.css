@@ -13,7 +13,7 @@ body {
 div.wrapper {
    border: 1px solid rgb(82, 82, 82);
    background: radial-gradient(circle, white, rgb(160, 231, 192));
-   max-width: 960px;
+   max-width: 100%;
    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.428);
    margin: 1rem auto;
 }
@@ -289,6 +289,16 @@ section.introvideo {
 
 /* Schedule CSS */
 
+.uploadmain h2 {
+   font-size: 250%;
+   text-align: center;
+   margin: 1rem;
+}
+
+.uploadmain h3 {
+   font-size: 150%;
+   margin: 1rem;
+}
 
 
 
