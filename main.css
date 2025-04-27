@@ -358,6 +358,7 @@ figure p {
 .firsthalf {
    grid-column: 1/2;
    margin-top: 2.75rem;
+   margin-left: 2rem;
 }
 
 .secondhalf {
