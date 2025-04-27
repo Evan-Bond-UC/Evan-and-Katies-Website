@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="main.css">
   <script src="jquery-3.4.1.js"></script>
-  <!-- ⬇︎ Slick Carousel from https://kenwheeler.github.io/slick/ -->
+  <!-- Slick Carousel -->
   <script src="slick/slick.js"></script>
   <link rel="stylesheet" type="text/css" href="slick/slick.css" />
   <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
@@ -31,66 +31,78 @@
     <main class="uploadmain">
       <h2>Upcoming events!</h2>
 
+      <!-- First Slider -->
       <div id="text-slider" class="slick-slider">
-
         <div class="slide">
           <h2>Slide 1</h2>
           <p>Content for slide one...</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae culpa deserunt amet consectetur, ipsam alias suscipit adipisci similique doloribus, omnis quam delectus dolorum, nostrum itaque quia sint! Ab, optio ipsum.</p>
         </div>
-
         <div class="slide">
           <h2>Slide 2</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione enim quisquam distinctio ducimus sed laborum commodi quo ea maiores iure saepe inventore quibusdam, nostrum tempora optio, porro voluptas numquam molestiae.</p>
-          <p>Cupiditate, nulla consequatur! Suscipit eius quis necessitatibus voluptate fugit qui magnam quia saepe ducimus aliquid reprehenderit, obcaecati dolore? Ab exercitationem odio minima amet quo dolore! Aliquid suscipit asperiores tenetur placeat.</p>
+          <p>More content for slide two...</p>
         </div>
-
         <div class="slide">
           <h2>Slide 3</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quos optio assumenda dolorum nobis laboriosam illo recusandae, esse adipisci delectus nulla nam ex vel, quidem, consectetur natus inventore sit possimus.</p>
-          <p>Cumque veniam, et provident deleniti necessitatibus pariatur nobis id eveniet, suscipit voluptatem reiciendis iste at ipsum, ducimus unde sint! Atque vero eum voluptatum libero deserunt, quae deleniti placeat repellat nulla!</p>
-        </div>
-
-        <div class="slide">
-          <h2>Slide 4</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod expedita animi iusto possimus eum ut, libero distinctio nemo sequi officiis nihil optio. Fugit dolorem ea ut eligendi laboriosam illum est?</p>
-          <p>Deleniti ducimus provident ipsam saepe, velit iste iure nam sunt cumque amet quibusdam reiciendis esse, eius itaque quam ab corporis ad illo at rerum necessitatibus in molestias. Laudantium, laboriosam quia.</p>
-        </div>
-
-        <div class="slide">
-          <h2>Slide 5</h2>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et excepturi est pariatur laborum quis. Asperiores obcaecati, quae enim voluptatem id quam facilis nulla repudiandae aspernatur autem, inventore nihil dignissimos molestiae?</p>
+          <p>Even more content for slide three...</p>
         </div>
       </div>
 
+      <!-- Second Slider -->
+      <div id="text-slider2" class="slick-slider">
+        <div class="slide">
+          <h2>Slide A</h2>
+          <p>Content for slider two, slide A...</p>
+        </div>
+        <div class="slide">
+          <h2>Slide B</h2>
+          <p>Content for slider two, slide B...</p>
+        </div>
+        <div class="slide">
+          <h2>Slide C</h2>
+          <p>Content for slider two, slide C...</p>
+        </div>
+      </div>
 
+      <!-- Third Slider -->
+      <div id="text-slider3" class="slick-slider">
+        <div class="slide">
+          <h2>Slide Alpha</h2>
+          <p>Third slider content Alpha...</p>
+        </div>
+        <div class="slide">
+          <h2>Slide Beta</h2>
+          <p>Third slider content Beta...</p>
+        </div>
+        <div class="slide">
+          <h2>Slide Gamma</h2>
+          <p>Third slider content Gamma...</p>
+        </div>
+      </div>
 
     </main>
 
     <footer>
       <small>
-         <h3>Come join the Watch Party</h3>
-         <a href="https://www.youtube.com/">📺 Subscribe Now</a>
+        <h3>Come join the Watch Party</h3>
+        <a href="https://www.youtube.com/">📺 Subscribe Now</a>
       </small>
-</footer>
+    </footer>
 
   </div>
 
-
   <script>
     $(document).ready(function () {
-      // Initialize Slick Carousel on #text-slider
-      $('#text-slider').slick({
-        centerMode: true,         // Enables centered view with partial prev/next slides
-        centerPadding: '60px',    // Space on the left and right of center slide
-        slidesToShow: 1,          // Number of slides to show
-        autoplay: true,           // Enable automatic slide change
-        autoplaySpeed: 8000,      // Delay between slides in ms
-        arrows: true,             // Show next/prev arrows
-        dots: true,               // Show navigation dots
+      $('#text-slider, #text-slider2, #text-slider3').slick({
+        centerMode: true,
+        centerPadding: '60px',
+        slidesToShow: 1,
+        autoplay: true,
+        autoplaySpeed: 8000,
+        arrows: true,
+        dots: true,
         responsive: [
           {
-            breakpoint: 768,      // At screen widths <768px
+            breakpoint: 768,
             settings: {
               slidesToShow: 1,
               centerPadding: '20px'
