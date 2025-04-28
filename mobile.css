@@ -34,6 +34,7 @@ footer {
   footer h3 {
     font-size: 125%;
     margin-bottom: 1rem;
+    font-family: "Atkinson Hyperlegible Mono", sans-serif;
   }
  
   footer a {
@@ -53,6 +54,8 @@ header {
    justify-content: space-between;
    align-items: center;
    padding: 1rem;
+   font-family: "Atkinson Hyperlegible Mono", sans-serif;
+   text-align: center;
 }
      
 header h1 {
@@ -94,6 +97,7 @@ nav a {
    font-size: 250%;
    text-align: center;
    margin: 1rem;
+   font-family: "Atkinson Hyperlegible Mono", sans-serif;
 }
 
 .homepage h2 {
@@ -169,6 +173,7 @@ iframe {
  .connect h2 {
    font-size: 250%;
    margin: 1rem;
+   font-family: "Atkinson Hyperlegible Mono", sans-serif;
  }
 
  .connect p {
@@ -219,6 +224,7 @@ iframe {
    margin-top: 2rem;
    text-align: center;
    font-size: 200%;
+   font-family: "Atkinson Hyperlegible Mono", sans-serif;
  }
  
  .awards {
@@ -246,6 +252,7 @@ iframe {
    font-size: 200%;
    text-align: center;
    margin-top: 2rem;
+   font-family: "Atkinson Hyperlegible Mono", sans-serif;
  }
 
  .fanartimg {
@@ -272,6 +279,7 @@ iframe {
  .patreon h3 {
    font-size: 200%;
    margin: 1rem;
+   font-family: "Atkinson Hyperlegible Mono", sans-serif;
  }
 
  .patreon p {
@@ -291,12 +299,14 @@ iframe {
    font-size: 250%;
    text-align: center;
    margin: 1rem 1rem 0 1rem;
+   font-family: "Atkinson Hyperlegible Mono", sans-serif;
 }
 
 .uploadmain h3 {
    text-align: center;
    font-size: 150%;
    margin: 4rem 1rem 1rem 1rem;
+   font-family: "Atkinson Hyperlegible Mono", sans-serif;
 }
 
 /* About Us Css*/
@@ -308,6 +318,7 @@ iframe {
 .about h2 {
    font-size: 250%;
    margin: 2rem 0rem 0rem 0rem;
+   font-family: "Atkinson Hyperlegible Mono", sans-serif;
 }
 
 .about h3 {
@@ -357,6 +368,7 @@ figure p {
    font-size: 250%;
    text-align: center;
    margin: 2rem 0;
+   font-family: "Atkinson Hyperlegible Mono", sans-serif;
 }
 
 .img2FAQ {
