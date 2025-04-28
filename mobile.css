@@ -412,12 +412,12 @@ figure p {
 ---------------------------- */
 /* Entire slider area */
 .slick-slider {
-   background-color: rgb(223, 221, 221);
+   background-color: #ff8da1;
  }
  
  /* Styles for individual slides */
  .slide {
-   background: #f5f5f5;
+   background: #A0D9EF;
    padding: 1rem 2rem;
    margin: 1rem 0.75rem;
    border-radius: 10px;
