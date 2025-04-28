@@ -226,6 +226,11 @@ section.introvideo {
    border: 2.5px solid #ff8da1;
  }
 
+ .Discord{
+   padding-top: .75rem;
+   padding-bottom: .75rem;
+ }
+
 .Twitter, .tiktok, .topcomment, .fanart1, .fanart3 {
    background-color: #ff8da1;
    padding: 1.5rem;
