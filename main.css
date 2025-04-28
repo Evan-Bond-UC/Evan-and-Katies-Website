@@ -226,9 +226,8 @@ section.introvideo {
    border: 2.5px solid #ff8da1;
  }
 
- .Discord{
-   padding-top: 1rem;
-   padding-bottom: 1rem;
+ .Discord figure {
+   padding-top: .75rem;
  }
 
 .Twitter, .tiktok, .topcomment, .fanart1, .fanart3 {
