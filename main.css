@@ -217,6 +217,15 @@ section.introvideo {
    font-style: italic;
  }
 
+ .Discord, .Twitter, .twitch, .tiktok, .watchtime, .binge, .topcomment, .fanart1, .fanart2, .fanart3 {
+   background-color: #A0D9EF;
+   padding: 1.5rem;
+   border-radius: 1rem;
+   text-align: center;
+   box-shadow: 0 4px 10px darkgray;
+   border: 2.5px solid #ff8da1;
+ }
+
  .viewers h3 {
    margin-top: 2rem;
    text-align: center;

@@ -115,9 +115,9 @@ div.options li {
      
 div.options a {
    text-decoration: none;
-   background-color: #A0D9EF;
+   background-color: #ff8da1;
    color: black;
-   border: 2.5px solid #ff8da1;
+   border: 2.5px solid #70adc5;
    border-radius: .5rem;
    padding: 1rem;
    margin: .5rem;
@@ -182,6 +182,24 @@ iframe {
    gap: 2rem;
    margin-top: 2rem;
    align-items: center;
+ }
+
+ .Discord, .Twitter, .twitch, .tiktok, .watchtime, .binge, .topcomment, .fanart1, .fanart2, .fanart3 {
+   background-color: #A0D9EF;
+   padding: 1.5rem;
+   border-radius: 1rem;
+   text-align: center;
+   box-shadow: 0 4px 10px darkgray;
+   border: 2.5px solid #ff8da1;
+ }
+
+.Twitter, .tiktok, .topcomment, .fanart1, .fanart3 {
+   background-color: #ff8da1;
+   padding: 1.5rem;
+   border-radius: 1rem;
+   text-align: center;
+   box-shadow: 0 4px 10px darkgray;
+   border: 2.5px solid #70adc5;
  }
  
  .icons section {
@@ -299,6 +317,31 @@ iframe {
 
 figure p {
    margin: 1rem;
+}
+
+.Evan, .ourlives {
+      background-color: #A0D9EF;
+      padding: 1.5rem;
+      border-radius: 1rem;
+      text-align: center;
+      box-shadow: 0 4px 10px darkgray;
+      border: 2.5px solid #ff8da1;
+      margin: 1.5rem 1rem;
+}
+
+.Katie, .channelstart {
+      background-color: #ff8da1;
+      padding: 1.5rem;
+      border-radius: 1rem;
+      text-align: center;
+      box-shadow: 0 4px 10px darkgray;
+      border: 2.5px solid #70adc5;
+      margin: 1.5rem 1rem;
+}
+
+
+.Evan h3, .Katie h3, .channelstart h3 {
+   margin-top: 0;
 }
 
 /* FAQ Css */
