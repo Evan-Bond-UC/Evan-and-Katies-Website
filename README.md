@@ -17,3 +17,13 @@ This project is a brand new website designed to function as a hub and a showcase
 ## Project Goals
 
 The project goals with this website are to forge a community of loyal subscribers who are more engaged with our content than the average youtube community. It aims to create a hub that can bring everybody together in a better way than the youtube interface, and potentially convert some of those viewers in to paying patreon subscribers or eventually create an "In-house" method of providing early access content for money within this website itself. 
+
+## Notes for Prof. Anderson
+
+A. I did not have time to actually create and edit the videos that I want to use, as well as didn't have the time to create all of the social media sites that I plan to create in the future, but still tried to add dud links to show that I know how to format them as well as a random youtube video in place of the real one for the same reason
+
+B. I tried experimenting with a different way to format grid layouts in the community page, it looks good for the mobile version, as well as the full screen version, but when its scaled down by making the browser skinnier manually, it looks rough during the transition, and I couldn't figure out how to fix it
+
+C. I couldn't figure out how to get the FAQ questions and images to properly line up in the center of their grid slots, no matter what selector I used, i just could not get it to align center, which leads to a bit of an awkward layout in desktop mode but, but it looks good in mobile
+
+D. I very much consider this website to be a work in progress, and would love as much feedback as possible about how to make the site look better!
